@@ -154,7 +154,7 @@ function split(input) {
   use for of if you want to exit the loop early or return a value
 
 2. What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples.
-  hoisting i moving the declared functions at the top of the scope before the code execution
+  hoisting is moving the declared functions at the top of the scope before the code execution
   TDZ is when the variable is defined but can not be accessed until it reached the line where it is initialized
 
 3. What are the main differences between == and ===?
@@ -162,10 +162,11 @@ function split(input) {
   while === compares values and data type (ex 10 === "10" false)
 
 4. Explain how try-catch works and why it is important in async operations.
-  it is a way for us to capture an error or a rejection while
+  try is to try a fucntion and see if it goes through
+  while catch is a way for us to capture an error or a rejection
 
 5. What’s the difference between type conversion and coercion? Provide examples of each.
   conversion is when we intentionally change the data type (ex Number())
-  coercion is when js changes the data type automatically to run the code (ex "5"+2 = "52")
+  coercion is when interpreter changes the data type automatically to run the code (ex "5"+2 = "52")
 */
 
